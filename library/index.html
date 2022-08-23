@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Library</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+        <div id="container">
+            <div class="header">
+                <h1>Library</h1>
+            </div>
+
+            <div class="content">
+                <button type="button" class="addBook">+ Add Book</button>
+
+                <div class="bookShelf">  
+                </div>
+
+                
+            </div>
+
+            <div class="modal">
+                <h3>Add a new book</h3>
+                <form>
+                    <input type="text" placeholder="Title" class="title" required/>
+                    <input type="text" placeholder="Author" class="author" required/>
+                    <input type="number" placeholder="Pages" class="pages" required/>
+
+                    <label for="read">
+                        Have you read it?
+                        <input type="checkbox" class="read"/>
+                    </label>
+
+                    <button value="Submit" class="submitBook">Submit</button>
+                </form>
+                
+            </div>
+
+        </div>
+
+        <script src="library.js"></script>
+    </body>
+</html>
